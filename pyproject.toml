@@ -1,0 +1,11 @@
+[project]
+name = "fastapi-mcp-starter"
+version = "0.1.0"
+description = "Starter template for building MCP servers with FastAPI"
+dependencies = [
+    "fastapi>=0.100.0",
+    "uvicorn>=0.23.0"
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
